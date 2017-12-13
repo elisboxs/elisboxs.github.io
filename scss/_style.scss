@@ -1,0 +1,23 @@
+/*** header ***/
+.navbar {
+    background-color: $blue;
+}
+
+.navbar a {
+    color: $white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");    
+}
+h1 {color: white; font-family: 'Trebuchet MS'; font-size: 20pt; text-align: center; padding-top:300pt;}
+#eerste {color:black; font-family:'Trebuchet MS'; font-size: 20pt; text-align: right;}
+#tweede {color:black; font-family: 'arial'; font-size:16pt; text-align:right;}
+h2 {color:black; font-family:'Trebuchet MS'; font-size: 20pt; text-align: center;}
+h3 {color:black; font-family: 'arial'; font-size:16pt; text-align:center;}
+h4 {color:blue; font-family: 'arial'; font-size:12pt; text-align:center;}
+#witjes {color:white;}
+#witjes2 {color:white;}
+#teksteinde {text-align:left;}
+#teksteinde2 {text-align:left;}
+#experience {font-style: oblique;text-align:right;}
