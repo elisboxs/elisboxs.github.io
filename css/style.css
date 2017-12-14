@@ -1,60 +1,162 @@
-.titel1 {font-family: 'Oswald', sans-serif;
-font-size: 18px;
-text-align: right;
-padding-right: 30px;
-padding-top: 80px;
-color:black;}
+.titel1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 80px;
+    color: black;
+}
 
-.titel2 {font-family: 'Oswald', sans-serif;
-font-size: 18px;
-text-align: left;
-padding-left: 30px;
-padding-top: 50px;
-color:black;}
+.titel2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    color: black;
+}
 
-.titel3 {font-family: 'Oswald', sans-serif;
-font-size: 18px;
-text-align: left;
-padding-left: 30px;
-padding-top: 50px;
-color:black;}
-.titel4 {font-family: 'Oswald', sans-serif;
-font-size: 18px;
-text-align:left;
-padding-left:30px;
-padding-right: 30px;
-padding-top:20px;
-color:black;}
-.tussentitel1 {font-family: 'Oswald', sans-serif;
-font-size: 13px;text-align: left;
-padding-left: 30px;
-padding-top: 50px;
-color:black;}
-.tussentitel2{font-family: 'Oswald', sans-serif;
-font-size: 13px;text-align: left;
-padding-left: 30px;
-padding-top: 20px;
-color:black;}
-.tussentitel3{font-family: 'Oswald', sans-serif;
-font-size: 13px;text-align: left;
-padding-left: 30px;
-padding-top: 20px;
-color:black;}
-.lopendetekst1 {font-family:'Open sans', sans-serif; font-size:8pt; text-align:left;
-padding-left:30px; padding-top:30px;padding-right: 30px;color:black;}
-.lopendetekst2,.lopendetekst3 {font-family:'Open sans', sans-serif; font-size:8pt; text-align:left;
-padding-left:30px; padding-top:30px;padding-right: 30px;color:black;}
-.facebooklink,.youtubelink {font-family:'Open sans', sans-serif; font-size:8pt; text-align:left;
-padding-left:30px; padding-top:25px;color:black;}
+.titel3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    color: black;
+}
 
-.button1{padding-left:30px;font-family:'Open sans', sans-serif;font-size:8pt;padding-top: 40px;color:black;}
-.button2{padding-left:30px;font-family:'Open sans', sans-serif;font-size:8pt;padding-top: 25px;color:black;}
-.nieuwsbrief{font-family:'Open sans', sans-serif;font-size:8pt;text-align:center;padding-top:25px;color:black;}
-.productiedossier{font-family:'Open sans', sans-serif;font-size:8pt;text-align:center;padding-top:25px;color:black;}
+.titel4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    color: black;
+}
 
-.foto1 {text-align: right;
-padding-right: 30px;font-family:'Open sans', sans-serif;font-size:8pt;padding-top:40px;color:black;}
+.tussentitel1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    color: black;
+}
 
-.nav-item {font-family:'Open sans', sans-serif;color:black;font-size:12pt;}
-.navbar-brand {font-family: 'Open Sans', sans-serif;color:black;}
-.navbar {background-color:black;}
+.tussentitel2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: black;
+}
+
+.tussentitel3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: black;
+}
+
+.lopendetekst1 {
+    font-family: 'Open sans', sans-serif;
+    font-size: 8pt;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: black;
+}
+
+.lopendetekst2,
+.lopendetekst3 {
+    font-family: 'Open sans', sans-serif;
+    font-size: 8pt;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: black;
+}
+
+.facebooklink,
+.youtubelink {
+    font-family: 'Open sans', sans-serif;
+    font-size: 8pt;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 25px;
+    color: black;
+}
+
+.button1 {
+    padding-left: 30px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 8pt;
+    padding-top: 40px;
+    color: black;
+}
+
+.button2 {
+    padding-left: 30px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 8pt;
+    padding-top: 25px;
+    color: black;
+}
+
+.nieuwsbrief {
+    font-family: 'Open sans', sans-serif;
+    font-size: 8pt;
+    text-align: center;
+    padding-top: 25px;
+    color: black;
+}
+
+.productiedossier {
+    font-family: 'Open sans', sans-serif;
+    font-size: 8pt;
+    text-align: center;
+    padding-top: 25px;
+    color: black;
+}
+
+.foto1 {
+    text-align: right;
+    padding-right: 30px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 8pt;
+    padding-top: 40px;
+    color: black;
+}
+
+.nav-item {
+    font-family: 'Open sans', sans-serif;
+    color: black;
+    font-size: 12pt;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.hero {
+    height: 350px;
+    background-image: url('../images/header.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
