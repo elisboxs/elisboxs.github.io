@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <title>La Cocina Loca</title>
 </head>
 
@@ -19,7 +20,7 @@
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <img class="navbar-brand" src="images/logo.svg" alt="logo">
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -44,62 +45,69 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-6">
-        <div style="background-color:lightgreen;height:450px;">
-          <h1 class="titel2">TITEL</h1>
-          <h2 class="tussentitel3">Tussentitel</h2>
-          <p class="lopendetekst1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-            eu, pretium quis, sem. Nulla consequat massa quis enim.<br><br>Donec pede justo, fringilla vel, aliquet nec,
-            vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu
-            pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
-            tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-            viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.<br><br>+ BUTTON "BOEK NU"</p>
+        <div style="background-color:#44195e;height:450px;">
+          <h1 class="titel2">ONZE GEGEVENS</h1>
+          <hr class="hr_onder hr_links">
+        <div class="clearfix"></div>
+          <p class="lopendetekst1">Adres: Nieuwe Bosstraat 6<br>
+          9810, Eke-Nazareth<br><br>
+          Tel: +32 467 89 10 11<br><br>
+          E-mail: lacocinaloca@telenet.be</p><a href="foodtruckreserveren.html"><input type="submit" value="BOEK ONS" id="boekons" class="button"></a>
         </div>
       </div>
-      <div class="col-sm-6 col-12" style="background-color:grey;">
-        <p class="button2">FOTO</p>
+      <div class="col-sm-6 col-12">
+        <img class="img-responsive2" src="images/taco.jpg" alt="taco">
       </div>
     </div>
     <div class="row">
 
     </div>
-    <div class="col-12" style="background-color:grey;height:400px">
-      <h1 class="titel2">TITEL</h1>
-      <p class="button2">INVULVELD</p>
+    <div class="col-12" style="background-color:#44195e;height:400px">
+      <h1 class="titel2">CONTACTEER ONS</h1>
+      <hr class="hr_onder hr_links">
+        <div class="clearfix"></div>
+      <form id="form"><input type="text" name="voornaam" placeholder="Uw voornaam">&nbsp;
+                    <input type="text" name="familienaam" placeholder="Uw naam"><br><br><input type="text"
+                        name="telefoon" placeholder="Uw telefoonnummer">&nbsp;
+                        <input type="text" name="e-mail" placeholder="Uw e-mailadres"><br><br>
+                    <input type="text" name="onderwerp" placeholder="Onderwerp">&nbsp;
+                    <br><br><input type="text" name="bericht" placeholder="Bericht">
+                </form>
     </div>
   </div>
   <div class="row">
-    <div class="col-12" style="background-color:lightgreen;height:60px">
-      <p class="button2">BUTTON "VERZEND"</p>
+    <div class="col-12" style="background-color:#44195e;height:100px">
+      <a href="contact.html"><input type="submit" value="VERZEND" id="boekons" class="button"></a>
     </div>
   </div>
   </div>
-  <div class="row">
-    <div class="col-4" style="background-color:salmon;height:60px">
-      <p class="button2">LOGO</p>
+    <div class="row">
+      <div class="col-4" style="background-color:#44195e;height:100px">
+        <img class="logofooter" src="images/logo.svg" alt="logo">
+      </div>
+      <div class="col-8" style="background-color:#44195e;height:100px">
+        <h1 class="titel3">VIND ONS OOK VIA</h1>
+      </div>
     </div>
-    <div class="col-8" style="background-color:lightgreen;height:60px">
-      <p class="titel4">TITEL</p>
+    <div class="row">
+      <div class="col-6" style="background-color:#44195e;height:60px">
+        <div id="link1"><a href="https://www.facebook.com/lacocinalocafoodtruck/">Facebook - La Cocina Loca</a></div>
+      </div>
+      <div class="col-6" style="background-color:#44195e;height:60px">
+        <div id="link2"><a href="https://youtu.be/hvF5wWChxbk">Youtube - La Cocina Loca</a></div>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-6" style="background-color:grey;height:60px">
-      <p class="facebooklink">FACEBOOKLINK</p>
+    <div class="row">
+      <div class="col-12" style="background-color:#44195e;height:60px">
+        <p class="nieuwsbrief">SCHRIJF JE IN OP ONZE NIEUWSBRIEF</p>
+      </div>
     </div>
-    <div class="col-6" style="background-color:salmon;height:60px">
-      <p class="youtubelink">YOUTUBELINK</p>
+<div class="row">
+      <div id="footer" class="col-12" style="background-color:#fab001;height:60px">
+        <p id="footertekst">Elise Boxstaele - Arteveldehogeschool<br>
+        <a id="footerlink" href="Productiedossier_EindopdrachtWebdesign_Quiche_EliseBoxstaele.pdf">Link naar het productiedossier van La Cocina Loca</a></p>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-12" style="background-color:grey;height:60px">
-      <p class="nieuwsbrief">SCHRIJF JE IN OP ONZE NIEUWSBRIEF</p>
-    </div>
-  </div>
-  <div class="row">
-    <div id="footer" class="col-12" style="background-color:lightgreen;height:60px">
-      <p class="productiedossier">PRODUCTIEDOSSIER LA COCINA LOCA</p>
-    </div>
-  </div>
   </div>
   <!-- end content -->
   <!-- Bootstrap core JavaScript
