@@ -267,6 +267,9 @@ a:visited {
 .navbar-brand {
     width: 80px;
 }
+.nav-item :hover {
+    color:white;
+    } 
 
 .logofooter {
     width: 100px;
@@ -437,6 +440,16 @@ iframe {
 }
 #speciaal2{
     background-color:#44195e;padding-top:30px;padding-bottom:59px;
+}
+.sprite1{
+    background-image: url ("../images/sprite.png");
+    background-size: cover;
+    height: 32px;
+}
+.sprite2{
+    background-image: url ("../images/sprite.png");
+    background-size: cover;
+    height: 32px;
 }
 @media screen and (min-width: 480px) {
 .hero{
