@@ -14,8 +14,15 @@
     font-weight: bold;
     font-size: 12px;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 15px;
     width: auto;
+    border:none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color:white;
+    color:#fab001;
 }
 #boekons {
     margin-left: 30px;
@@ -253,7 +260,6 @@ a:visited {
 
 .nav-item {
     font-family: 'Oswald', sans-serif;
-    color:peachpuff;
     font-size: 12pt;
     letter-spacing: 2px;
 }
@@ -299,6 +305,21 @@ a:visited {
     font-size: 10pt;
     text-align:center;
     margin-top:50px; 
+}
+.form-control{
+    font-family: 'Open sans', sans-serif;
+    color:#44195e;
+    font-size: 10pt;
+    text-align:center;
+    margin-top:30px;
+    margin:auto;
+    width:250px;
+}
+#bericht{
+    height:100px;
+}
+#info{
+    height:100px;
 }
 .videoWrapper {
 	position: relative;
@@ -385,11 +406,10 @@ iframe {
     top: 0px;
 }
 .img-fluid{
-    vertical-align:center;
-    width:50%;
-    margin: 0 auto;
-    height:auto;
-    display:block;
+    height: 300px;
+    width: 100%;
+    object-fit: cover; // here
+    -o-object-fit: cover;
 }
 #titeltje {
     padding-top: 250px;
@@ -405,6 +425,18 @@ iframe {
 }
 #footer{
     background-color:#fab001;padding-top:10px;padding-bottom:10px;
+}
+#speciaal{
+    background-color:#44195e;padding-top:30px;padding-bottom:146px;
+}
+#kleur{
+    background-color:#44195e;
+}
+#onder{
+    background-color:#44195e;padding-bottom:30px;
+}
+#speciaal2{
+    background-color:#44195e;padding-top:30px;padding-bottom:59px;
 }
 @media screen and (min-width: 480px) {
 .hero{
