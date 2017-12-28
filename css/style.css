@@ -16,21 +16,29 @@
     text-align: center;
     padding: 10px 15px;
     width: auto;
-    border:none;
+    border: none;
     border-radius: 8px;
     transition-duration: 0.4s;
 }
+
 .button:hover {
-    background-color:white;
-    color:#fab001;
+    background-color: white;
+    color: #fab001;
 }
+
 .button:active {
-    background-color:#44195e;
-    color:white;
+    background-color: #44195e;
+    color: white;
 }
+
 #boekons {
     margin-left: 30px;
-    margin-top:20px; 
+    margin-top: 20px;
+}
+
+#boekons1 {
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .food {
@@ -93,8 +101,9 @@
     padding-top: 20px;
     color: black;
 }
+
 #footertekst {
-    text-align: center; 
+    text-align: center;
     font-family: 'Open sans', sans-serif;
     font-size: 8pt;
     padding-top: 15px;
@@ -111,13 +120,15 @@
     color: white;
     letter-spacing: 1px;
 }
+
 .img-responsive {
     display: block;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
-    padding-left: 30px; 
+    padding-left: 30px;
     padding-top: 35px;
 }
+
 .tussentitel {
     font-family: 'Oswald', sans-serif;
     font-size: 16pt;
@@ -127,6 +138,7 @@
     padding-right: 30px;
     color: #fab001;
 }
+
 .tussentitel3 {
     font-family: 'Oswald', sans-serif;
     font-size: 12pt;
@@ -146,6 +158,7 @@
     padding-right: 30px;
     color: #fab001;
 }
+
 .tussentitelprijs {
     font-family: 'Oswald', sans-serif;
     font-size: 12pt;
@@ -153,7 +166,7 @@
     padding-left: 30px;
     padding-top: 20px;
     padding-right: 30px;
-    color:white;
+    color: white;
 }
 
 .lopendetekst2,
@@ -225,23 +238,26 @@
     padding-top: 30px;
     color: white;
 }
+
 #footerlink:hover {
-    color:#44195e;
+    color: #44195e;
 }
+
 #footerlink:active {
-    color:#fab001;
+    color: #fab001;
 }
+
 #link1 {
     padding-left: 30px;
     text-align: left;
     font-family: 'Oswald', sans-serif;
     font-size: 8pt;
-    padding-top:30px; 
+    padding-top: 30px;
 }
 
 #link2 {
     padding-right: 30px;
-    padding-top:30px; 
+    padding-top: 30px;
     float: right;
     font-family: 'Oswald', sans-serif;
     font-size: 8pt;
@@ -277,20 +293,23 @@ a:visited {
 .navbar-brand {
     width: 80px;
 }
+
 .nav-item :hover {
-    color:white;
-    } 
+    color: white;
+}
+
 .nav-item :active {
-    color:#44195e;
-    } 
+    color: #44195e;
+}
+
 .logofooter {
     width: 100px;
     padding-left: 30px;
-    padding-top:20px; 
+    padding-top: 20px;
 }
 
 .navbar {
-    background-color:#44195e;
+    background-color: #44195e;
 }
 
 .hero {
@@ -304,112 +323,127 @@ a:visited {
     height: auto;
     max-width: 100%;
 }
+
 .prijs {
     font-family: 'Oswald', sans-serif;
     font-size: 10pt;
     color: #fab001;
+    padding-left: 30px;
 }
+
 .img-responsive2 {
     display: block;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
 }
+
 #form {
     font-family: 'Open sans', sans-serif;
-    color:#44195e;
+    color: #44195e;
     font-size: 10pt;
-    text-align:center;
-    margin-top:50px; 
+    text-align: center;
+    margin-top: 50px;
 }
-.form-control{
+
+.form-control {
     font-family: 'Open sans', sans-serif;
-    color:#44195e;
+    color: #44195e;
     font-size: 10pt;
-    text-align:center;
-    margin-top:30px;
-    margin:auto;
-    width:250px;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    width: 250px;
 }
-#bericht{
-    height:100px;
+
+#bericht {
+    height: 100px;
 }
-#info{
-    height:100px;
+
+#info {
+    height: 100px;
 }
+
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 }
+
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-hr{
+
+hr {
     margin-top: 1rem;
     box-sizing: content-box;
     overflow: visible;
 }
-.hr_links{
-    float:left;
+
+.hr_links {
+    float: left;
 }
-.hr_onder{
-    width:50px;
+
+.hr_onder {
+    width: 50px;
     height: 6px;
-    margin-left: 30px;;
+    margin-left: 30px;
+    ;
     margin-right: auto;
     margin-bottom: 40px;
-    background-color:#fab001;
+    background-color: #fab001;
     border: 0 none;
     border-radius: 7px 7px 7px 7px;
 }
-.navbar-brand {
-    animation-name:animate;
-        animation-duration:5s;
-        animation-timing-function:linear;
-        animation-delay:0s;
-        animation-direction:normal;
 
-        -webkit-animation-name:animate;
-        -webkit-animation-duration:5s;
-        -webkit-animation-timing-function:linear; 
-        -webkit-animation-delay:0s;
-        -webkit-animation-direction:normal;
+.navbar-brand {
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    -webkit-animation-name: animate;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-direction: normal;
 }
 
 @keyframes animate {
-        0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        }
-        50% {
-                -webkit-transform: rotate(180deg);
-                transform: rotate(180deg);
-        }
-        100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-        }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 @-webkit-keyframes animate {
-        0% {
-                -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        }
-        50% {
-                -webkit-transform: rotate(180deg);
-                transform: rotate(180deg);
-        }
-        100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-        }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
+
 iframe {
     position: absolute;
     height: 100%;
@@ -420,78 +454,156 @@ iframe {
     left: 0px;
     top: 0px;
 }
-.img-fluid{
+
+.img-fluid {
     height: 300px;
     width: 100%;
-    object-fit: cover; // here
+    object-fit: cover;
     -o-object-fit: cover;
 }
+
 #titeltje {
     padding-top: 250px;
 }
+
 .wrapper {
-    background-color:#44195e;padding-top:30px;padding-bottom:40px;
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
-#wrapper1{
-    background-color:#44195e;padding-top:0px;padding-bottom:30px;
+
+#wrapper1 {
+    background-color: #44195e;
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
-#standaard{
-    background-color:#44195e;padding-top:30px;padding-bottom:30px;
+
+#standaard {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-#footer{
-    background-color:#fab001;padding-top:10px;padding-bottom:10px;
+
+#standaard1 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-#speciaal{
-    background-color:#44195e;padding-top:30px;padding-bottom:146px;
+
+#standaard2 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-#kleur{
-    background-color:#44195e;
+
+#standaard3 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-#onder{
-    background-color:#44195e;padding-bottom:30px;
+
+#standaard4 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-#speciaal2{
-    background-color:#44195e;padding-top:30px;padding-bottom:59px;
+
+#standaard5 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.sprite1{
+
+#standaard6 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#standaard7 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#standaard8 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer {
+    background-color: #fab001;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#speciaal {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 146px;
+}
+
+#kleur {
+    background-color: #44195e;
+}
+
+#onder {
+    background-color: #44195e;
+    padding-bottom: 30px;
+}
+
+#speciaal2 {
+    background-color: #44195e;
+    padding-top: 30px;
+    padding-bottom: 59px;
+}
+
+.sprite1 {
     background-image: url("../images/sprite.png");
     background-size: 200%;
     height: 32px;
-    width:32px;
+    width: 32px;
     display: block;
 }
-.sprites{
-    float:right;
-    margin-right:30px;
+
+.sprites {
+    float: right;
+    margin-right: 30px;
 }
 
 .sprite1:hover {
     background-position-x: -32px;
 }
 
-.sprite2{
+.sprite2 {
     background-image: url("../images/sprite.png");
     background-size: 200%;
     height: 32px;
-    width:32px;
+    width: 32px;
     display: block;
-    background-position-x:-64px;
-    background-position-y:32px;
+    background-position-x: -64px;
+    background-position-y: 32px;
 }
+
 .sprite2:hover {
     background-position-x: 32px;
 }
-#mc_embed_signup{
-    text-align:center;
+
+#mc_embed_signup {
+    text-align: center;
 }
-#mc_embed_signup_scroll{
+
+#mc_embed_signup_scroll {
     color: white;
 }
-#mce-EMAIL{
-    font-family: oswald; 
+
+#mce-EMAIL {
+    font-family: oswald;
 }
+
 @media screen and (min-width: 480px) {
-.hero{
-    height:350px;
-}
+    .hero {
+        height: 350px;
+    }
 }
